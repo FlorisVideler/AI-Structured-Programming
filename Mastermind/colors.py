@@ -26,5 +26,6 @@ def evaluateColors(guessedColors: list,secretCode) -> dict:
                 pins['white'] +=1
                 del tempColors[i]
         except ValueError:
+            """"Handle de exception ipv pass"""
             pass
     return pins
